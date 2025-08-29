@@ -1,70 +1,36 @@
-# 🛠 Hardware Store App  
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![React](https://img.shields.io/badge/Frontend-React-blue)  
-![Node.js](https://img.shields.io/badge/Backend-Node.js-green)  
-![Express](https://img.shields.io/badge/API-Express-orange)  
-![Firebase](https://img.shields.io/badge/Database-Firebase-yellow)  
-![License](https://img.shields.io/badge/License-MIT-lightgrey)  
-## 🚀 Features
+## Getting Started
 
-### 🛒 Customer Side
-- Product catalog with categories (Tiles, Cement, Paint, Tools, etc.)
-- Search and filter options
-- Add to cart & checkout
-- Multiple payment options (Cash on Delivery, eSewa, Khalti)
-- Order history & tracking
-- PWA support (installable, works offline for cached pages)
+First, run the development server:
 
-### 🛠 Admin Side
-- Add/Edit/Delete products
-- Inventory management
-- Order management (approve/update/deliver)
-- Sales reports & analytics
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🏗 Tech Stack
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-### Frontend
-- ⚛️ React.js (with PWA support)  
-- 🎨 Tailwind CSS (for styling)  
-- 🔀 React Router (navigation)  
-- 🌐 Axios (API calls)  
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Backend
-- 🟢 Node.js  
-- ⚡ Express.js  
-- 🔑 Firebase Admin SDK (for Firestore access)  
+## Learn More
 
-### Database
-- 🔥 Firebase Firestore (real-time, NoSQL)  
+To learn more about Next.js, take a look at the following resources:
 
-### Other
-- 🔐 Firebase Authentication (optional for users/admins)  
-- 📲 Firebase Cloud Messaging (push notifications)  
-- ☁️ Deployment: Vercel (frontend) + Render/Heroku (backend)  
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 📂 Project Structure
+## Deploy on Vercel
 
-hardware-store-app/
-│
-├── backend/ # Node.js + Express server
-│ ├── index.js # Entry point
-│ ├── routes/ # API routes
-│ ├── controllers/ # Business logic
-│ ├── models/ # Firestore helpers
-│ └── config/ # Firebase config
-│
-├── frontend/ # React PWA
-│ ├── public/
-│ │ └── manifest.json # PWA manifest
-│ ├── src/
-│ │ ├── components/ # UI components
-│ │ ├── pages/ # Pages (Home, Product, Cart, Admin, etc.)
-│ │ ├── services/ # API & Firestore utils
-│ │ └── App.jsx # Root app
-│ └── package.json
-│
-└── README.md
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
