@@ -8,7 +8,7 @@ export default function Products() {
 
   return (
     <main className="p-8 bg-gray-50 min-h-screen">
-      <h1 className="text-3xl font-bold mb-6">Our Products</h1>
+      <h1 className="text-3xl font-bold mb-6">Ourr Products</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((p) => (
           <div key={p.name} className="bg-white p-4 rounded shadow hover:shadow-lg transition">
